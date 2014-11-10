@@ -1,0 +1,67 @@
+#fundo {
+	margin:0px auto 0px auto;
+	padding: 0px;
+	width: 370px;
+	height: 260px;
+	background-color: black;
+}
+#topo {
+	margin: 0px auto 0px auto;
+	position: relative;
+	top: 200px;
+	width: 370px;
+	height: 30px;
+	background-color: black;
+}
+#mensagem {
+	padding: 1px;
+	color: white;
+	position: relative;
+	top: 5px;
+	font-family: arial;
+	font-size: 18px;
+	text-align: center;
+}
+#cadastro {
+	position: relative;
+	margin: 10px auto 10px auto;
+	padding: 0px;
+	outline:none;
+	font-family: "calibri";
+	width: 350px;
+	height: 250px;
+	background-color: #f46c05;
+}
+.txt {
+	height: 35px;
+	width: :250px;
+	font-size: 18px;
+	color: #f46c05;
+	border-color:black;
+	border-radius: 5px;
+	padding: 2px; 
+}
+#cad_tab {
+	height: 250px;
+	margin: 0px auto 0px auto;
+	padding: 25px;
+	border:none;
+	margin-top: 200px;
+}
+#botao {
+	width: 100px;
+	height: 30px;
+	border-color: black;
+	border-radius: 5px;
+	position: relative;
+	float: right;
+	color:black;
+	font-family: arial;
+	font-size: 15px;
+}
+#botao:hover {
+	background-color: black;
+	color: white;
+	cursor: pointer;
+	border-color: white;
+}

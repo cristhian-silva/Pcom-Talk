@@ -1,0 +1,35 @@
+<?php
+	require_once"config.php";
+?>
+<html>
+	<head>
+		<title> Nova Mensagem </title>
+		<link rel="stylesheet" type="text/css" href="../css/mensagem.css">
+		<meta charset="UTF-8">
+	</head>
+<body>
+	<form method="POST" action="">
+		<div id="sup">
+			<img id="esquerda" src="../Imgs/pcom.jpg">
+			<img id="direita" src="../Imgs/descr.jpg"> 
+		</div>
+	<!-- ================================================== -->
+		<label>
+			<input id="botao" name="enviar" type="submit" class="btn" value="Enviar">
+		</label>
+	<!-- ================================================== -->
+		<div id="para"> Para: </div> 
+		<input type="email" name="email" size="40">
+	<!-- ================================================== -->
+		<div id="externa">
+			<div id="interna"> 
+				<p id="titulo-mensagem"> Criar Mensagem: </p>
+				<div id ="mensagem">
+					<TEXTAREA name="mensagem"> </TEXTAREA>
+				</div>
+			 </div>
+		</div>
+	</fomr>
+	<!-- ================================================== -->
+</body>
+</html>
